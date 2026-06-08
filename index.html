@@ -3,127 +3,206 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Celeris - Redefinindo o Tempo da Justiça</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>Celeris — Redefinindo o Tempo da Justiça</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <header>
-        <div class="logo">CELERIS</div>
+        <div class="logo">
+            CELERIS
+            <span class="logo-sub">Redefinindo o Tempo</span>
+        </div>
         <nav>
             <ul>
                 <li><a href="#sobre">SOBRE</a></li>
                 <li><a href="#problema">O PROBLEMA</a></li>
                 <li><a href="#solucao">A SOLUÇÃO</a></li>
+                <li><a href="#fluxo">COMO FUNCIONA</a></li>
                 <li><a href="#valor">VALOR</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
+
+        <!-- HERO -->
         <section id="hero" class="hero">
-            <h1>Redefinindo o Tempo da Justiça</h1>
-            <p>Utilizamos Inteligência Artificial para automatizar a triagem de petições, combatendo o acúmulo de processos e garantindo a celeridade processual.</p>
-            <a href="#solucao" class="btn">Conheça o Ecossistema</a>
+            <div class="hero-content">
+                <span class="hero-tag">Triagem Inteligente do Judiciário</span>
+                <h1>Redefinindo o tempo da Justiça</h1>
+                <p>Um ecossistema de inteligência e automação judiciária que atua na porta de entrada dos Tribunais — classificando, organizando e acelerando a tramitação das petições iniciais.</p>
+                <div class="hero-actions">
+                    <a href="#solucao" class="btn btn-primary">Conheça a solução</a>
+                    <a href="#problema" class="btn btn-ghost">Entenda o problema</a>
+                </div>
+            </div>
         </section>
 
+        <!-- SOBRE -->
         <section id="sobre">
-            <h2>SOBRE O CELERIS</h2>
-            <h2>______________</h2>
+            <span class="section-eyebrow">Sobre o projeto</span>
+            <h2>O que é o Celeris</h2>
+            <div class="section-divider"></div>
 
-            <p>A palavra tem origem no latim <em>celeritas</em>
-            (rapidez, prontidão). No universo jurídico, ela remete diretamente
-            ao Princípio da Celeridade Processual, garantido pela Constituição
-            Federal, que busca assegurar a todos a razoável duração do
-            processo</p>
+            <div class="sobre-content">
+                <p>A palavra tem origem no latim <em>celeritas</em> (rapidez, prontidão). No universo jurídico, ela remete diretamente ao <strong>Princípio da Celeridade Processual</strong>, garantido pela Constituição Federal, que assegura a todos a razoável duração do processo.</p>
 
-            <p> O <b>Celeris</b> é um ecossistema de inteligência e automação judiciária 
-                desenhado para atuar na "porta de entrada" dos Tribunais de Justiça. 
-                Ele funciona como um filtro inteligente para realizar a triagem automática
-                de petições iniciais assim que elas entram no sistema. </p>
+                <p>O <strong>Celeris</strong> é um ecossistema de inteligência e automação judiciária desenhado para atuar na porta de entrada dos Tribunais de Justiça. Ele funciona como um filtro inteligente, realizando a triagem automática de petições iniciais assim que elas entram no sistema.</p>
 
-            <p>O objetivo central não é substituir o trabalho humano, mas sim eliminar o 
-                "tempo de descoberta". No modelo atual, um servidor precisa ler manualmente 
-                cada processo para entender do que se trata; com o Celeris, o processo já chega
-                 categorizado por assunto, com alertas de litispendência (processos repetidos) e 
-                 sugestões de minutas de despacho prontas para validação.</p>
-
+                <p>O objetivo central não é substituir o trabalho humano, mas eliminar o <strong>"tempo de descoberta"</strong>. No modelo atual, um servidor precisa ler manualmente cada processo para entender do que se trata. Com o Celeris, o processo já chega categorizado por assunto, com alertas de litispendência e sugestões de minutas de despacho prontas para validação.</p>
+            </div>
         </section>
 
-        <section id="problema">
-            <h2>O DESAFIO ATUAL</h2>
-             <h2>______________</h2>
+        <!-- PROBLEMA -->
+        <section id="problema" class="section-alt">
+            <span class="section-eyebrow">O cenário atual</span>
+            <h2>O desafio do Judiciário</h2>
+            <div class="section-divider"></div>
+
             <div class="grid">
                 <div class="card">
-                    <i class="fas fa-file-invoice fa-2x"></i>
-                    <h3>Estoque Milionário</h3>
-                    <p>O Judiciário brasileiro enfrenta milhões de processos acumulados que aguardam análise inicial.</p>
+                    <div class="card-icon"><i class="fas fa-file-invoice"></i></div>
+                    <h3>Estoque milionário</h3>
+                    <p>O Judiciário brasileiro enfrenta milhões de processos acumulados que aguardam análise inicial, comprometendo o acesso à Justiça.</p>
                 </div>
                 <div class="card">
-                    <i class="fas fa-user-clock fa-2x"></i>
-                    <h3>Esforço Manual</h3>
-                    <p>Servidores precisam ler manualmente centenas de petições diariamente apenas para decidir o destino do processo.</p>
+                    <div class="card-icon"><i class="fas fa-user-clock"></i></div>
+                    <h3>Esforço manual</h3>
+                    <p>Servidores precisam ler manualmente centenas de petições diariamente apenas para decidir o destino inicial de cada processo.</p>
                 </div>
                 <div class="card">
-                    <i class="fas fa-exclamation-triangle fa-2x"></i>
-                    <h3>Lentidão Sistêmica</h3>
-                    <p>O processo manual gera cansaço extremo, erros humanos e demora no atendimento ao cidadão.</p>
+                    <div class="card-icon"><i class="fas fa-exclamation-triangle"></i></div>
+                    <h3>Lentidão sistêmica</h3>
+                    <p>O processo manual gera cansaço extremo, erros humanos e demora no atendimento ao cidadão que aguarda uma resposta da Justiça.</p>
                 </div>
             </div>
         </section>
 
+        <!-- SOLUÇÃO -->
         <section id="solucao">
-            <h2>NOSSA SOLUÇÃO</h2>
-            <h2>______________</h2>
+            <span class="section-eyebrow">A proposta</span>
+            <h2>Nossa solução</h2>
+            <div class="section-divider"></div>
+
             <div class="grid">
                 <div class="card">
-                    <i class="fa-solid fa-robot fa-2x"></i>
-                    <h3>Triagem Inteligente</h3>
-                    <p>Análise automática de petições para classificação imediata do assunto jurídico.</p>
+                    <div class="card-icon"><i class="fa-solid fa-robot"></i></div>
+                    <h3>Triagem inteligente</h3>
+                    <p>Análise automática de petições iniciais para classificação imediata do assunto jurídico, sem leitura humana prévia.</p>
                 </div>
                 <div class="card">
-                    <i class="fas fa-filter fa-2x"></i>
-                    <h3>Filtro de Repetitivos</h3>
-                    <p>Identificação de litispendência e demandas em massa antes da leitura humana.</p>
+                    <div class="card-icon"><i class="fas fa-filter"></i></div>
+                    <h3>Filtro de repetitivos</h3>
+                    <p>Identificação de litispendência e demandas em massa antes mesmo da análise pelo servidor, evitando retrabalho.</p>
                 </div>
                 <div class="card">
-                    <i class="fas fa-magic fa-2x"></i>
-                    <h3>Automação de Fluxo</h3>
-                    <p>Sugestão de modelos de despachos padronizados para acelerar a tramitação inicial.</p>
+                    <div class="card-icon"><i class="fas fa-magic"></i></div>
+                    <h3>Automação de fluxo</h3>
+                    <p>Sugestão de modelos de despachos padronizados para acelerar a tramitação inicial e padronizar decisões.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon"><i class="fas fa-tags"></i></div>
+                    <h3>Tags automáticas</h3>
+                    <p>Cada petição recebe etiquetas temáticas que organizam a fila e permitem priorização inteligente pelo servidor.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon"><i class="fas fa-exclamation-circle"></i></div>
+                    <h3>Alertas de urgência</h3>
+                    <p>Processos urgentes e prioritários são destacados visualmente, garantindo atenção imediata onde realmente importa.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon"><i class="fas fa-chart-line"></i></div>
+                    <h3>Visão de fila</h3>
+                    <p>Painel unificado com toda a triagem pendente, contagens por assunto e indicadores de celeridade processual.</p>
                 </div>
             </div>
         </section>
 
+        <!-- COMO FUNCIONA -->
+        <section id="fluxo" class="section-alt">
+            <span class="section-eyebrow">O fluxo do servidor</span>
+            <h2>Como o Celeris funciona</h2>
+            <div class="section-divider"></div>
+
+            <p class="fluxo-intro">Da entrada da petição até o despacho, o sistema acompanha o servidor em cinco etapas claras:</p>
+
+            <div class="fluxo">
+                <div class="fluxo-step">
+                    <div class="fluxo-num">1</div>
+                    <h4>Upload da petição</h4>
+                    <p>O servidor envia o PDF da petição inicial diretamente no sistema.</p>
+                </div>
+                <div class="fluxo-step">
+                    <div class="fluxo-num">2</div>
+                    <h4>Cadastro automático</h4>
+                    <p>O sistema pré-preenche os dados do processo, evitando digitação manual.</p>
+                </div>
+                <div class="fluxo-step">
+                    <div class="fluxo-num">3</div>
+                    <h4>Triagem por assunto</h4>
+                    <p>A petição entra na fila já classificada, com tags e nível de prioridade.</p>
+                </div>
+                <div class="fluxo-step">
+                    <div class="fluxo-num">4</div>
+                    <h4>Análise assistida</h4>
+                    <p>O servidor abre o processo e visualiza sugestões de despacho prontas.</p>
+                </div>
+                <div class="fluxo-step">
+                    <div class="fluxo-num">5</div>
+                    <h4>Encaminhamento</h4>
+                    <p>O processo segue para a próxima etapa com toda a inteligência aplicada.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- VALOR -->
         <section id="valor">
-        <h2>VALOR GERADO</h2>
-        <h2>______________</h2>
+            <span class="section-eyebrow">Impacto gerado</span>
+            <h2>O valor entregue</h2>
+            <div class="section-divider"></div>
 
-        <div class="grid">
-            <div class="card">
-                <i class="fas fa-clock fa-2x"></i>
-                <h3>Agilidade Processual</h3>
-                <p>O Celeris reduz o tempo gasto na análise inicial de processos, permitindo que ações sejam encaminhadas com mais rapidez.</p>
+            <div class="grid">
+                <div class="card">
+                    <div class="card-icon"><i class="fas fa-clock"></i></div>
+                    <h3>Agilidade processual</h3>
+                    <p>Redução drástica do tempo gasto na análise inicial, permitindo que ações sejam encaminhadas com muito mais rapidez.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon"><i class="fas fa-scale-balanced"></i></div>
+                    <h3>Justiça mais eficiente</h3>
+                    <p>A automação inteligente diminui gargalos operacionais e contribui para uma prestação jurisdicional verdadeiramente célere.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon"><i class="fas fa-users"></i></div>
+                    <h3>Apoio ao servidor</h3>
+                    <p>O sistema reduz tarefas repetitivas e permite que servidores foquem em decisões estratégicas e análises de maior complexidade.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon"><i class="fas fa-shield-halved"></i></div>
+                    <h3>Conformidade constitucional</h3>
+                    <p>Ferramenta que eleva o padrão de atendimento ao cidadão e materializa, na prática, o princípio constitucional da celeridade.</p>
+                </div>
             </div>
 
-        <div class="card">
-                <i class="fas fa-scale-balanced fa-2x"></i>
-                <h3>Justiça Mais Eficiente</h3>
-                <p>A automação inteligente diminui gargalos operacionais e contribui para uma prestação jurisdicional mais eficiente.</p>
+            <div class="cta-box">
+                <h3>Menos tempo triando. Mais tempo decidindo.</h3>
+                <p>O Celeris devolve ao servidor aquilo que falta no Judiciário: tempo para o que realmente importa.</p>
             </div>
+        </section>
 
-        <div class="card">
-                <i class="fas fa-users fa-2x"></i>
-                <h3>Apoio ao Servidor</h3>
-                <p>O sistema reduz tarefas repetitivas e permite que servidores foquem em decisões estratégicas e análises mais complexas.</p>
-            </div>
-        </div>
-</section>
-</main>
+    </main>
 
     <footer>
-        <p>© 2026 Celeris - Projeto Multidisciplinar Integrador I</p>
-        <p>Desenvolvido para transformar a gestão judiciária.</p>
+        <div class="footer-brand">
+            <strong>CELERIS</strong>
+            <span>Redefinindo o Tempo da Justiça</span>
+        </div>
+        <div class="footer-info">
+            <p>© 2026 Celeris — Projeto Multidisciplinar Integrador</p>
+            <p>Desenvolvido para transformar a gestão judiciária.</p>
+        </div>
     </footer>
 
 </body>
