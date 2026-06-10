@@ -23,11 +23,10 @@ Sem frameworks ou dependências de build — basta abrir o `index.html` no naveg
 
 ## Como rodar localmente
 
-```bash
+```
 git clone <url-do-repositório>
 cd celeris_landpage
-# abra index.html no navegador, ou use um servidor local:
-npx serve .
+# abra index.html no navegador, ou utilize Live-Server do VSCODE;
 ```
 
 ## Estrutura
