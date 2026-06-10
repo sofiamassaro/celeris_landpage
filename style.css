@@ -309,67 +309,6 @@ section h2 {
     line-height: 1.65;
 }
 
-/* ================= FLUXO (5 ETAPAS) ================= */
-.fluxo-intro {
-    text-align: center;
-    color: var(--text-muted);
-    font-size: 1rem;
-    max-width: 620px;
-    margin: 0 auto 48px;
-}
-
-.fluxo {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
-    gap: 20px;
-    max-width: 1200px;
-    margin: 0 auto;
-    position: relative;
-}
-
-.fluxo-step {
-    background: white;
-    border: 1px solid var(--border-color);
-    border-radius: 12px;
-    padding: 28px 22px;
-    text-align: center;
-    position: relative;
-    transition: all 0.3s ease;
-}
-
-.fluxo-step:hover {
-    border-color: var(--celeris-blue);
-    transform: translateY(-3px);
-    box-shadow: 0 8px 20px rgba(0, 64, 128, 0.08);
-}
-
-.fluxo-num {
-    width: 40px;
-    height: 40px;
-    background: var(--celeris-blue);
-    color: white;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: 700;
-    font-size: 1rem;
-    margin: 0 auto 18px;
-}
-
-.fluxo-step h4 {
-    font-size: 0.95rem;
-    font-weight: 700;
-    color: var(--text-main);
-    margin-bottom: 8px;
-}
-
-.fluxo-step p {
-    font-size: 0.85rem;
-    color: var(--text-muted);
-    line-height: 1.55;
-}
-
 /* ================= CTA BOX ================= */
 .cta-box {
     max-width: 780px;
